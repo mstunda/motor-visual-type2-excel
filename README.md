@@ -11,8 +11,6 @@ A full description of the tool can be found in:
 |  | M. Stunda, "Graphical Tool for Browsing Motor Control Simulation Data in the Space Vector Domain," _2019 IEEE 7th IEEE Workshop on Advances in Information, Electronic and Electrical Engineering (AIEEE)_, Liepaja, Latvia, 2019, pp. 1-5. https://ieeexplore.ieee.org/document/8976934
 |  |
 
-
-
 ### User input
 The user only has conrol over the timepoint within the simulation. This is manipulated by four differently scaled sliders. By using diferent sliders, different processes can be observed best. 
 
@@ -35,7 +33,10 @@ The middle sliders are best for observing the current space vector following it'
 The graphical interface is built using _Python 3.7_ and the _TkInter_ library.
 
 For a quick and easy isolated _Python 3.x_ setup the [_Miniconda_][4] installer (not full _Anaconda_) and the [_Spyder_][5] IDE can be recommended. 
-After installing miniconda _Spyder_ IDE can be installed through the [_Anaconda Prompt_][6] by running: `conda install spyder`
+After installing miniconda _Spyder_ can be installed through the [_Anaconda Prompt_][6] by running: 
+```
+conda install spyder
+```
 
 If not yet installed, the following Python packages will be required: 
 * _xlrd_ and _pandas_ for reading the spreadsheet 
