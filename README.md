@@ -11,21 +11,6 @@ A full description of the tool can be found in:
 |  | M. Stunda, "Graphical Tool for Browsing Motor Control Simulation Data in the Space Vector Domain," _2019 IEEE 7th IEEE Workshop on Advances in Information, Electronic and Electrical Engineering (AIEEE)_, Liepaja, Latvia, 2019, pp. 1-5. https://ieeexplore.ieee.org/document/8976934
 |  |
 
-### Running the code
-The graphical interface is built using _Python 3.7_ and the _TkInter_ library.
-
-For a quick and easy isolated _Python 3.x_ setup the [_Miniconda_](https://docs.conda.io/en/latest/miniconda.html) installer (not full _Anaconda_) and the [_Spyder_](https://www.spyder-ide.org/) IDE can be recommended. 
-After installing miniconda _Spyder_ IDE can be installed through the [_Anaconda Prompt_](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf):
-
-'''
-conda install spyder
-'''
-
-If not yet installed, the following Python packages will be required: 
-* _xlrd_ and _pandas_ for reading the spreadsheet 
-* _tk_ for building the GUI.
-
-To produce the space vector values, simulation data must be exported from Matlab Simulink in spreadsheet (_.xlsx_) format using "_To Workspace_". The column indentifiers and simulation length must be modified within the code to match the spreadsheet contents. A sample spreadsheet is added to run the code instantly. Loading it might take a while.
 
 
 ### User input
@@ -45,8 +30,24 @@ Here is a recording of operating all the sliders.
 The middle sliders are best for observing the current space vector following it's target and the voltage space vector required to do so.
 ![GUI overview][3]
 
+
+### Running the code
+The graphical interface is built using _Python 3.7_ and the _TkInter_ library.
+
+For a quick and easy isolated _Python 3.x_ setup the [_Miniconda_][4] installer (not full _Anaconda_) and the [_Spyder_][5] IDE can be recommended. 
+After installing miniconda _Spyder_ IDE can be installed through the [_Anaconda Prompt_][6] by running: `conda install spyder`
+
+If not yet installed, the following Python packages will be required: 
+* _xlrd_ and _pandas_ for reading the spreadsheet 
+* _tk_ for building the GUI.
+
+To produce the space vector values, simulation data must be exported from Matlab Simulink in spreadsheet (_.xlsx_) format using "_To Workspace_". The column indentifiers and simulation length must be modified within the code to match the spreadsheet contents. A sample spreadsheet is added to run the code instantly. Loading it might take a while.
+
+
+
 [1]: images/GUI_magnetization_slowest.gif
 [2]: images/GUI_gates_fastest.gif
 [3]: images/GUI_overview.gif
-
-
+[4]: https://docs.conda.io/en/latest/miniconda.html
+[5]: https://www.spyder-ide.org/
+[6]: https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
