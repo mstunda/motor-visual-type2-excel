@@ -6,7 +6,7 @@ Usually this data is graphed along several time axis in different scales or in a
 This tool allows viewing the vecotr value development graphically one sample at a time. By browsing through the simulation, the value development is animated under full control of the viewer.
 
 A full description of the tool can be found in:
- [M. Stunda, "Graphical Tool for Browsing Motor Control Simulation Data in the Space Vector Domain," _2019 IEEE 7th IEEE Workshop on Advances in Information, Electronic and Electrical Engineering (AIEEE)_, Liepaja, Latvia, 2019, pp. 1-5.] [https://ieeexplore.ieee.org/document/8976934]
+ [M. Stunda, "Graphical Tool for Browsing Motor Control Simulation Data in the Space Vector Domain," _2019 IEEE 7th IEEE Workshop on Advances in Information, Electronic and Electrical Engineering (AIEEE)_, Liepaja, Latvia, 2019, pp. 1-5.] [link.ieee]
 
 
 ### User input
