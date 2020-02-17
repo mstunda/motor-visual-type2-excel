@@ -53,7 +53,8 @@ conda install spyder
 ```
 
 If not yet installed, the following Python packages will be required: 
-* _xlrd_ and _pandas_ for reading the spreadsheet 
+* _xlrd_ and _pandas_ for reading the spreadsheet
+* _math_ for calculating the rotating Hexagon 
 * _tk_ for building the GUI.
 
 ### Input data
