@@ -3,6 +3,7 @@
 <!-- TOC -->
 
 - [About](#about)
+    - [Preview](#preview)
         - [User input](#user-input)
         - [Full scale (Zoom x1)](#full-scale-zoom-x1)
         - [Smallest scale (Zoom x2000)](#smallest-scale-zoom-x2000)
@@ -22,7 +23,8 @@ This tool allows viewing the vecotr value development graphically one sample at 
 A full description of the tool can be found in:
  [M. Stunda, "Graphical Tool for Browsing Motor Control Simulation Data in the Space Vector Domain," _2019 IEEE 7th IEEE Workshop on Advances in Information, Electronic and Electrical Engineering (AIEEE)_, Liepaja, Latvia, 2019, pp. 1-5.][link.ieee]
 
-
+## Preview
+ 
 ### User input
 The user only has conrol over the timepoint within the simulation. This is manipulated by four differently scaled sliders. By using diferent sliders, different processes can be observed best. 
 
