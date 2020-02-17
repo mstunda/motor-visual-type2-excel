@@ -13,15 +13,20 @@ A full description of the tool can be found in:
 
 ### Running the code
 The graphical interface is built using _Python 3.7_ and the _TkInter_ library.
-To produce the space vector values, simulation data must be exported from Matlab Simulink in spreadsheet (_.xlsx_) format using "_To Workspace_". The column indentifiers and simulation length must be modified within the code to match the spreadsheet contents.
 
-A sample spreadsheet is added to run the code instantly. Loading it might take a while.
+For a quick and easy isolated _Python 3.x_ setup the [_Miniconda_](https://docs.conda.io/en/latest/miniconda.html) installer (not full _Anaconda_) and the [_Spyder_](https://www.spyder-ide.org/) IDE can be recommended. 
+After installing miniconda _Spyder_ IDE can be installed through the [_Anaconda Prompt_](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf):
 
-For a quick and easy isolated _Python 3.x_ setup the [_Miniconda_](https://docs.conda.io/en/latest/miniconda.html) installer and the _Spyder_ IDE can be recommended.
+'''
+conda install spyder
+'''
 
 If not yet installed, the following Python packages will be required: 
 * _xlrd_ and _pandas_ for reading the spreadsheet 
 * _tk_ for building the GUI.
+
+To produce the space vector values, simulation data must be exported from Matlab Simulink in spreadsheet (_.xlsx_) format using "_To Workspace_". The column indentifiers and simulation length must be modified within the code to match the spreadsheet contents. A sample spreadsheet is added to run the code instantly. Loading it might take a while.
+
 
 ### User input
 The user only has conrol over the timepoint within the simulation. This is manipulated by four differently scaled sliders. By using diferent sliders, different processes can be observed best. 
