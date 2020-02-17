@@ -1,16 +1,15 @@
-# About
-
+About
+======
 <!-- TOC -->
 
-- [About](#about)
-    - [Preview](#preview)
-        - [User input](#user-input)
-        - [Full scale (Zoom x1)](#full-scale-zoom-x1)
-        - [Smallest scale (Zoom x2000)](#smallest-scale-zoom-x2000)
-        - [Full overview](#full-overview)
-    - [Running the code](#running-the-code)
-        - [Python setup](#python-setup)
-        - [Input data](#input-data)
+- [Preview](#preview)
+    - [User input](#user-input)
+    - [Full scale (Zoom x1)](#full-scale-zoom-x1)
+    - [Smallest scale (Zoom x2000)](#smallest-scale-zoom-x2000)
+    - [Full overview](#full-overview)
+- [Running the code](#running-the-code)
+    - [Python setup](#python-setup)
+    - [Input data](#input-data)
 
 <!-- /TOC -->
 
