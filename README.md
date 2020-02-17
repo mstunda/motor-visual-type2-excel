@@ -1,4 +1,18 @@
 # About
+
+<!-- TOC -->
+
+- [About](#about)
+        - [User input](#user-input)
+        - [Full scale (Zoom x1)](#full-scale-zoom-x1)
+        - [Smallest scale (Zoom x2000)](#smallest-scale-zoom-x2000)
+        - [Full overview](#full-overview)
+    - [Running the code](#running-the-code)
+        - [Python setup](#python-setup)
+        - [Input data](#input-data)
+
+<!-- /TOC -->
+
 This is a graphical tool for browsing output data of an electical drives simulation (e.g. form Matlab Simulink) in the space vector domain and in the rotor flux linkage reference frame.
 
 Usually this data is graphed along several time axis in different scales or in a static locus around the x-y plane. This allows to view the complete development of all the scalar vector components at once, but leaves the spatial interpretation completely to the viewer.
@@ -27,9 +41,10 @@ The middle sliders are best for observing the current space vector following it'
 ![GUI overview][gif.overview]
 
 
-### Running the code
+## Running the code
 The graphical interface is built using _Python 3.7_ and the _TkInter_ library.
 
+### Python setup
 For a quick and easy isolated _Python 3.x_ setup the [_Miniconda_][link.conda] installer (not full _Anaconda_) and the [_Spyder_][link.spyder] IDE can be recommended. 
 After installing miniconda _Spyder_ can be installed through the [_Anaconda Prompt_][link.prompt] by running: 
 ```
@@ -40,6 +55,7 @@ If not yet installed, the following Python packages will be required:
 * _xlrd_ and _pandas_ for reading the spreadsheet 
 * _tk_ for building the GUI.
 
+### Input data
 To produce the space vector values, simulation data must be exported from Matlab Simulink in spreadsheet (_.xlsx_) format using "_To Workspace_". The column indentifiers and simulation length must be modified within the code to match the spreadsheet contents. A sample spreadsheet is added to run the code instantly. Loading it might take a while.
 
 
