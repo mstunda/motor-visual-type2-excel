@@ -22,6 +22,8 @@ This tool allows viewing the vecotr value development graphically one sample at 
 A full description of the tool can be found in:
  [M. Stunda, "Graphical Tool for Browsing Motor Control Simulation Data in the Space Vector Domain," _2019 IEEE 7th IEEE Workshop on Advances in Information, Electronic and Electrical Engineering (AIEEE)_, Liepaja, Latvia, 2019, pp. 1-5.][link.ieee]
 
+This is a continuation of [__a previous project__][link.type1] that ran on simplified motor model equations. 
+
 ## Preview
  
 ### User input
@@ -62,6 +64,7 @@ To produce the space vector values, simulation data must be exported from Matlab
 
 
 [link.ieee]: https://ieeexplore.ieee.org/document/8976934
+[link.type1]:https://github.com/mstunda/motor-visual-type1-math
 [gif.slow]: images/GUI_magnetization_slowest.gif
 [gif.fast]: images/GUI_gates_fastest.gif
 [gif.overview]: images/GUI_overview.gif
